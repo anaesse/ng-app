@@ -1,10 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutPageComponent } from './pages/about-page/about-page.component';
-import { ContactPageComponent } from './pages/contact-page/contact-page.component';
-import { TeamPageComponent } from './pages/team-page/team-page.component';
-import { PrivacyComponent } from './pages/privacy/privacy.component';
-import { TermsComponent } from './pages/terms/terms.component';
 
 
 
