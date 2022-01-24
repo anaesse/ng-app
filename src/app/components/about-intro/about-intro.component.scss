@@ -1,0 +1,27 @@
+.about{
+    min-height: 550px;
+    background-color: rgba(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: bottom 40px center;
+}
+.about-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #050602;
+    font-family: 'Martel', serif;
+    max-width: 700px;
+}
+.about a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #69544F;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.aboutImage{
+    width: 400px;
+    border-radius: 15px;
+}

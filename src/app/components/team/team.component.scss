@@ -1,0 +1,15 @@
+.carousel-item{
+    text-align: center;
+   margin: 0 0 20px 0;
+   padding: 80px 10px;
+   color: hsla(217, 78%, 23%, 0.945);
+
+background-size:cover;
+background-color: rgba(102, 91, 42, 0.623);
+background-blend-mode: overlay; 
+background-repeat: no-repeat; 
+background-position: top center;      
+}
+.carousel1{
+    background-image: url('/assets/images/team1.jpg');
+}

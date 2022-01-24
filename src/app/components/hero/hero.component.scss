@@ -1,0 +1,29 @@
+.hero{
+    min-height: 550px;
+    background-image: url('/assets/images/hero10.jpg');
+    background-color: rgba(0, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: bottom -40px center;
+}
+.hero-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #050602;
+    font-family: 'Martel', serif;
+    max-width: 700px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #52554B;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+@media (max-width: 576px) {
+    .hero{
+        min-height: 400px;
+    }
+}
