@@ -6,10 +6,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-          <a class="nav-link" routerLink="/aboutPage">About</a>
-          <a class="nav-link" routerLink="/teamPage" >Teams</a>
-          <a class="nav-link" routerLink="/contactPage">Contact</a>
+            <a class="nav-link " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="">Home</a>
+          <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/aboutPage">About</a>
+          <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/teamPage" >Teams</a>
+          <a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/contactPage">Contact</a>
         </div>
       </div>
     </div>
