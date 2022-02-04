@@ -21,9 +21,17 @@ export class PostService {
       },}
       )
   }
-  update() {}
-   remove() {}
+  update(postId:number, sophy: any) {
+    return this.http.put(this.url + '/' + postId,
+      { body: sophy,
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },}
+      )
+  }
+   remove(postId:number) {
+    return this.http.delete(this.url + '/' + postId)
+   }
   
-
-
 }
+  

@@ -41,8 +41,7 @@ export class ContactComponent implements OnInit {
       this.postForm.reset();
     }
   }
-
-
+  
 
 }
 

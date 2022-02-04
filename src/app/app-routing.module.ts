@@ -22,6 +22,10 @@ const routes: Routes = [
     loadChildren: () => import('./module/contact/contact.module').then(m => m.ContactModule)
   },
   {
+    path: 'galleryPage',
+    loadChildren: () => import('./module/galley/galley.module').then(m => m.GalleyModule)
+  },
+  {
     path: 'privacy',
     loadChildren: () => import('./module/privacy/privacy.module').then(m => m.PrivacyModule)
   },
