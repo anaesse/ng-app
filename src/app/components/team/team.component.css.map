@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,UAAU,EAAE,MAAM;EACnB,MAAM,EAAE,UAAU;EAClB,OAAO,EAAE,SAAS;EAClB,KAAK,EAAE,wBAA0B;EAEpC,eAAe,EAAC,KAAK;EACrB,gBAAgB,EAAE,wBAAwB;EAC1C,qBAAqB,EAAE,OAAO;EAC9B,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,UAAU;CAC9B;;AACD,AAAA,UAAU,CAAA;EACN,gBAAgB,EAAE,+BAA+B;CACpD",
+    "sources": [
+        "team.component.scss"
+    ],
+    "names": [],
+    "file": "team.component.css"
+}
